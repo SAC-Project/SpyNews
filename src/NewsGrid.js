@@ -1,10 +1,10 @@
 import NewsItem from './NewsItem'
 
-function NewsGrid({items}) {
-    return(
+function NewsGrid({ items }) {
+    return (
         <div className='news-grid'>
             {items.map((item, i) => (
-                <NewsItem key={i} item={item}/>
+                <NewsItem key={i} item={item} />
             ))}
         </div>
     )

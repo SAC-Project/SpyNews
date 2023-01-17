@@ -17,29 +17,8 @@ function Dashboard() {
   const [active, setActive] = useState(1)
   const [category, setCategory] = useState("general")
   const [error, setError] = useState(null)
+  console.log(sessionStorage.getItem("dataKey"))
 
-  useEffect(() => {
-    const controller = new AbortController();
-    const signal = controller.signal;
-    fetch('./news.json', {signal : signal})
-    .then(res => res.json())
-    .then(data => setItems(data.source))
-    .catch((err) => {
-      setError(err);
-    });
-    return() => controller.abort();
-  }, []);
-
-  // async function fetchJSON() {
-  //   try {
-  //     const response = await fetch('news.json');
-  //     const data = await response.json();
-  //     console.log(data);
-  //     data => setItems(data.articles)
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-  // }
 
 
   useEffect(() => {
@@ -51,11 +30,13 @@ function Dashboard() {
   return (
     <div className="App">
       <button type='button' className='logout-btn' onClick={() => navigate("/")}>
-          <span className='fs-18 fw-6'>Log Out</span>
-        </button>
+        <span className='fs-18 fw-6'>Log Out</span>
+      </button>
       <h1 className="title">See The Latest News</h1>
       {/* <Menu active={active} setActive={setActive} setCategory={setCategory}/> */}
-      <NewsGrid items={items}/>
+      <NewsGrid items={News} />
+
+
     </div>
   );
 }

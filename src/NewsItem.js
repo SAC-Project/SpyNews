@@ -1,4 +1,4 @@
-function NewsItem({item}) {
+function NewsItem({ item }) {
     const websiteUrl = item.url
     const website = websiteUrl.split('https://').pop().split('/')[0]
 
@@ -22,6 +22,9 @@ function NewsItem({item}) {
                 </div>
                 <p className="article-description">
                     {item.description}
+                </p>
+                <p className="article-description">
+                    {item.genres.sports}
                 </p>
                 <div className="article-details">
                     <small><b>Published At: </b>{formatTime}</small>
