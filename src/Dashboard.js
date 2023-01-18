@@ -117,6 +117,9 @@ function Dashboard() {
   }, []);
 
   const clickOnItem = (item) => {
+
+    window.open(item.url);
+
     const updatedPreferences = [];
     const oldComedy = userPreferences.find(e => e.name === 'comedy')?.value;
     const oldAction = userPreferences.find(e => e.name === 'action')?.value;
