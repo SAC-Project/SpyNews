@@ -1,17 +1,13 @@
-function Menu({active, setActive, setCategory}){
-     const links = [
-    { id: 1, name: "ACTION", value: "action" },
-    { id: 1, name: "COMEDY", value: "comedy" },
-    { id: 1, name: "HEALTH", value: "health" },
-    { id: 1, name: "ROMANCE", value: "romance" },
-    { id: 1, name: "SPORTS", value: "sports" },
-    { id: 1, name: "TRAGEDY", value: "tragedy" },
-  ]
+import newsGenres from "./newsGenres"
 
+function Menu({active, setActive, setCategory}){
+    const links = newsGenres;
 
     function onClick(id, value) {
-        setActive(id)
-        setCategory(value)
+        console.log(`Ai selectat ${id} si ${value}`)
+        //setActive(id)
+        //setCategory(value)
+
     }
 
     return(
