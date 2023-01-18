@@ -147,9 +147,10 @@ function Dashboard() {
 
     localStorage.setItem('userPreferences', JSON.stringify(updatedPreferences));
 
-    setUserPreferences(updatedPreferences);
-
     window.location.href = '/dashboard';
+    window.location.href = item.url;
+
+    setUserPreferences(updatedPreferences);
   }
 
   return (
