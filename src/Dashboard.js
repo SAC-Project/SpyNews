@@ -80,7 +80,7 @@ function Dashboard() {
     });
 
     console.log(orderedPreferences);
-
+    
     setNewsItems(sortedNews.slice(0, numberOfRecomm));
   }
 
@@ -118,7 +118,8 @@ function Dashboard() {
 
   const clickOnItem = (item) => {
 
-    window.open(item.url);
+    //window.open(item.url, '_blank');
+    //window.focus();
 
     const updatedPreferences = [];
     const oldComedy = userPreferences.find(e => e.name === 'comedy')?.value;
@@ -144,7 +145,11 @@ function Dashboard() {
     
     console.log(`Item was clicked ${item}`);
 
+    localStorage.setItem('userPreferences', JSON.stringify(updatedPreferences));
+
     setUserPreferences(updatedPreferences);
+
+    window.location.href = '/dashboard';
   }
 
   return (
