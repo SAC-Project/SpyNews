@@ -23,8 +23,8 @@ function NewsItem({ item }) {
                 <p className="article-description">
                     {item.description}
                 </p>
-                <p className="article-description">
-                    {item.genres.sports}
+                <p className="article-text">
+                    {item.content}
                 </p>
                 <div className="article-details">
                     <small><b>Published At: </b>{formatTime}</small>

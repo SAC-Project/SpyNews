@@ -312,5 +312,215 @@
         "health": 0.00,
         "tragedy": 0.00
     }
+},
+{
+    "source": {
+        "id": null,
+        "name": "ESPN"
+    },
+    "author": "Michael Rothstein",
+    "title": "New Lions safety Jayron Kearse suspended three games",
+    "description": "Kearse, 26, signed with the Lions in March after four seasons in Minnesota, where he played in 62 games with five starts, making 79 tackles and defending eight passes.",
+    "url": "https://www.espn.com/nfl/story/_/id/29572640/new-lions-safety-jayron-kearse-suspended-three-games",
+    "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0111%2Fr651071_1296x729_16%2D9.jpg",
+    "publishedAt": "2020-07-31T23:23:14",
+    "content": null,
+    "genres": {
+        "sports": 0.85,
+        "comedy": 0.00,
+        "action": 0.03,
+        "romance": 0.00,
+        "health": 0.07,
+        "tragedy": 0.05
+    }
+},
+{
+    "source": {
+        "id": null,
+        "name": "ABC News"
+    },
+    "author": "Dan Peck",
+    "title": "Hurricane Hanna makes landfall around 5 p.m. on Saturday.",
+    "description": "Hurricane Hanna battered southern Texas with sustained winds of 75 mph and continued to deliver heavy rain and flash flooding as it moved inland late Saturday.",
+    "url": "https://abcnews.go.com/US/hurricane-hanna-makes-landfall-texas/story?id=71985566",
+    "urlToImage": "https://s.abcnews.com/images/US/hanna-swimmer-mo_hpMain_20200725-163152_2_4x3t_384.jpg",
+    "publishedAt": "2020-07-26T01:04:23",
+    "content": null,
+    "genres": {
+        "sports": 0.00,
+        "comedy": 0.00,
+        "action": 0.10,
+        "romance": 0.00,
+        "health": 0.00,
+        "tragedy": 0.90
+    }
+},
+{
+    "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+    },
+    "author": "Matthew Luxmoore",
+    "title": "Blasts Rock Ukraine's Cities in Morning Russian Missile Attacks - The Wall Street Journal",
+    "description": "Blasts Rock Ukraine's Cities in Morning Russian Missile Attacks  The Wall Street Journal\r\nRussian Rocket Hits Residential Area Outside Kyiv | Russia Vs Ukraine War Updates | English News LIVE  CNN-News18\r\nLATEST UPDATES | Russian miss…",
+    "url": "https://www.wsj.com/articles/blasts-rock-ukraines-cities-in-morning-russian-missile-attacks-11673689664",
+    "urlToImage": "https://images.wsj.net/im-703919/social",
+    "publishedAt": "2023-01-14T12:32:00Z",
+    "content": "KYIV, UkraineA series of explosions rocked Kyiv on Saturday morning as Russia launched a new barrage of missiles against objects of critical infrastructure in Ukraines capital and other cities across… [+435 chars]",
+    "genres": {
+        "sports": 0.00,
+        "comedy": 0.00,
+        "action": 0.15,
+        "romance": 0.00,
+        "health": 0.05,
+        "tragedy": 0.80
+    }
+},
+{
+    "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journa"
+    },
+    "author": "John Gruber",
+    "title": "Meanwhile, Over at Twitter, They’ve Giving Away Ads",
+    "description": "Tech company to match advertisers’ ad spending up to $250,000",
+    "url": "https://www.wsj.com/articles/twitter-offers-free-ads-to-brands-that-advertise-on-its-platform-11673654556",
+    "urlToImage": "https://images.wsj.net/im-703887/social",
+    "publishedAt": "2023-01-14T01:25:08Z",
+    "content": "Suzanne Vranica and Patience Haggin, reporting for The Wall Street Journal (News+ and Archive links):\n\n\n Twitter Inc. is offering advertisers a new incentive in an attempt\nto woo brands back to the s… [+388 chars]",
+    "genres": {
+        "sports": 0.00,
+        "comedy": 0.60,
+        "action": 0.00,
+        "romance": 0.00,
+        "health": 0.00,
+        "tragedy": 0.40
+    }
+},
+{
+    "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+    },
+    "author": null,
+    "title": "Miss Universe Is Now Owned by a Woman. Will It Change? - The ... - The Wall Street Journal",
+    "description": "When a new Miss Universe is crowned this Saturday, she will be the first winner under new pageant owner Anne Jakrajutatip, a Thai businesswoman and transgender advocate. We talk to Jakrajutatip about her views on beauty and how she wants to transform the page…",
+    "url": "https://www.wsj.com/podcasts/the-journal/miss-universe-is-now-owned-by-a-woman-will-it-change/029a26e2-0dea-4b77-a67f-d1e390a502df",
+    "urlToImage": "https://images.wsj.net/im-653169?width=1280",
+    "publishedAt": "2023-01-12T21:34:00Z",
+    "content": null,
+    "genres": {
+        "sports": 0.05,
+        "comedy": 0.70,
+        "action": 0.00,
+        "romance": 0.10,
+        "health": 0.15,
+        "tragedy": 0.00
+    }
+},
+{
+    "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+    },
+    "author": "Sarah Toy",
+    "title": "Child Vaccination Rates Have Dropped, CDC Says",
+    "description": "Healthcare disruptions, immunization reluctance open door to otherwise-preventable illnesses",
+    "url": "https://www.wsj.com/articles/child-vaccination-rates-have-dropped-cdc-says-11673552847",
+    "urlToImage": "https://images.wsj.net/im-702685/social",
+    "publishedAt": "2023-01-12T19:49:13Z",
+    "content": "Rates of routine immunization have declined among young children, federal researchers said, in part because of disruptions in healthcare access \r\nduring the Covid pandemic.The Centers for Disease Con… [+294 chars]",
+    "genres": {
+        "sports": 0.00,
+        "comedy": 0.00,
+        "action": 0.05,
+        "romance": 0.00,
+        "health": 0.85,
+        "tragedy": 0.10
+    }
+},
+{
+    "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+    },
+    "author": "wsj",
+    "title": "'YELLOWSTONE' Show Has Suburbanites Dressing Like Cattle Ranchers...",
+    "description": "People who ride commuter trains, not horses, are wearing cowboy hats and snap-button shirts to imitate the characters on the Paramount Network hit",
+    "url": "https://www.wsj.com/articles/yellowstone-show-has-suburbanites-dressing-like-cattle-ranchers-11673536153",
+    "urlToImage": "https://images.wsj.net/im-701610/social",
+    "publishedAt": "2023-01-12T16:00:04Z",
+    "content": "‘Yellowstone’ Show Has Suburbanites Dressing Like Cattle RanchersRyan Capalbo’s life is nothing like that of a rough and tumble cowboy.The 34-year-old spends his days toiling over foster care cases, … [+659 chars]",
+    "genres": {
+        "sports": 0.00,
+        "comedy": 0.75,
+        "action": 0.05,
+        "romance": 0.20,
+        "health": 0.00,
+        "tragedy": 0.00
+    }
+},
+{
+    "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+    },
+    "author": "Ryan Dube",
+    "title": "Peru's Antigovernment Protests Turn Increasingly Deadly - WSJ - The Wall Street Journal",
+    "description": "Peru's Antigovernment Protests Turn Increasingly Deadly - WSJ  The Wall Street Journal\r\nPeru anti-government protests spread, with clashes in Cusco  The Associated Press\r\nPoliceman burned to death amid protest, unrest in Peru, death …",
+    "url": "https://www.wsj.com/articles/perus-antigovernment-protests-turn-increasingly-deadly-11673466030",
+    "urlToImage": "https://images.wsj.net/im-701852/social",
+    "publishedAt": "2023-01-11T22:29:00Z",
+    "content": "LIMA, PeruAntigovernment protesters in Peru clashed with police in the tourism hub of Cusco, the gateway to the Inca citadel of Machu Picchu, as an embattled government struggles to contain \r\nviolent… [+433 chars]",
+    "genres": {
+        "sports": 0.00,
+        "comedy": 0.00,
+        "action": 0.20,
+        "romance": 0.00,
+        "health": 0.05,
+        "tragedy": 0.75
+    }
+},
+{
+    "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+        },
+    "author": "Google News",
+    "title": "Uganda Declares End of Deadly Ebola Outbreak - The Wall Street Journal",
+    "description": "At least 55 people died in outbreak of rare, vaccine-resistant Sudan strain",
+    "url": "https://www.wsj.com/articles/uganda-declares-end-of-deadly-ebola-outbreak-11673427283",
+    "urlToImage": "https://images.wsj.net/im-701291/social",
+    "publishedAt": "2023-01-11T08:54:00Z",
+    "content": "KAMPALA, UgandaUgandas Ebola outbreak is over, the countrys health ministry said Wednesday, capping a nearly four-month struggle to contain a \r\nrare strain of the highly contagious virus for which th… [+573 chars]",
+    "genres": {
+        "sports": 0.00,
+        "comedy": 0.00,
+        "action": 0.05,
+        "romance": 0.25,
+        "health": 0.60,
+        "tragedy": 0.10
+    }
+},
+{
+    "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+        },
+    "author": "Robbie Whelan",
+    "title": "Disney Adds Lower Priced Theme Park Access and Perks",
+    "description": "Move by CEO Robert Iger since his return signals effort to win back fans frustrated by high costs, booking difficulties",
+    "url": "https://www.wsj.com/articles/disney-adds-lower-priced-theme-park-access-and-perks-11673392233",
+    "urlToImage": "https://images.wsj.net/im-701053/social",
+    "publishedAt": "2023-01-10T23:10:00Z",
+    "content": "Robert Iger is making a peace offering to Disneys most fervent fans, in what amounts to his first major change to Walt Disney Co.s theme-parks business since returning to the company as chief executi… [+275 chars]",
+    "genres": {
+        "sports": 0.00,
+        "comedy": 0.60,
+        "action": 0.00,
+        "romance":0.35,
+        "health": 0.05,
+        "tragedy": 0.00
+    }
 }
 ]
