@@ -14,7 +14,7 @@ function Dashboard() {
   const [userPreferences, setUserPreferences] = useState([]);
   const [displayPreferences, setDisplayPreferences] = useState("");
 
-  const RECOMMENDATIONS_COUNT = 10;
+  const RECOMMENDATIONS_COUNT = 12;
 
   const flattenNewsObject = (news) => {
     const flattenNews = news.map(item => {
